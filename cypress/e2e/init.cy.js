@@ -1,8 +1,8 @@
 describe('Test Set Blaze Demo', () => {
   it('enter demoblaze', () => {
-    cy.visit('')
+    cy.visit('https://www.demoblaze.com')
   })
   it('check product in demoblaze',()=>{
-    cy.visit('/prod.html?idp_=1')
+    cy.visit('https://www.demoblaze.com/prod.html?idp_=1')
   })
 })
